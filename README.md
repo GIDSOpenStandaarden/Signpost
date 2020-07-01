@@ -37,7 +37,7 @@ Currently, we share open source components to start third party applications (eH
 HTI is an open standard that support the shared function to start third party applications. It is inspired by the proven international education open standard IMS-LTI and can be (re)used in different initiatives, like SamenBeter, MedMij, and Koppeltaal. It succeeds and replaces SNS/Launch, see above. Review [the proposal for HTI here](https://drive.google.com/open?id=1A89P3aHsSudeE2Iz2c3IVl30l9_USWrKb1SqYneJWKw).
 
 ### HTI | POC
-- GIDS-HTI-TestSuite. intended for developers to support the implementation of the HTI protocol.
+- [GIDS-HTI-TestSuite](https://github.com/GIDSOpenStandaarden/GIDS-HTI-TestSuite). intended for developers to support the implementation of the HTI protocol.
  
 ## Legal documents and templates
 We host a few relevant legal components (governance, risk and compliance documentation) and templates that help you implement our licensing policies easily as you make use of, or contribute to our projects:
