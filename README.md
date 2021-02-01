@@ -39,6 +39,9 @@ HTI is an open standard that support the shared function to start third party ap
 ### HTI | POC
 - [GIDS-HTI-Protocol](https://github.com/GIDSOpenStandaarden/GIDS-HTI-Protocol/blob/master/HTI.md) technical specification.
 - [GIDS-HTI-TestSuite](https://github.com/GIDSOpenStandaarden/GIDS-HTI-TestSuite) intended for developers to support the implementation of the HTI protocol.
+- [GIDS-HTI-RI-Module-Python](https://github.com/GIDSOpenStandaarden/GIDS-HTI-RI-Module-Python) code example.
+- [GIDS-HTI-RI-Module-Java](https://github.com/GIDSOpenStandaarden/GIDS-HTI-RI-Module-Java) code example.
+- [GIDS-HTI-RI-Portal-Java](https://github.com/GIDSOpenStandaarden/GIDS-HTI-RI-Portal-Java) code example.
  
 ## Legal documents and templates
 We host a few relevant legal components (governance, risk and compliance documentation) and templates that help you implement our licensing policies easily as you make use of, or contribute to our projects:
