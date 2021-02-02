@@ -14,7 +14,7 @@ We distinguish between **five states** for open source components:
 # Overview of repositories
 
 ## Social Network Standard (SNS)
-Currently, we share open source components to start third party applications (eHealth modules) from portals (SNS/Launch), and to identify users arriving in a module from a portal through such a launch using [IRMA](https://github.com/privacybydesign) (SNS/Identity). We are working on components to connect social networks to healthcare contexts, such as community portals or personal health record applications (SNS/Community). SNS/Launch, currently in use in Stichting Beter met Elkaar projects: [SamenBeter Proeftuinen](https://www.samenbeter.org/proeftuinen) and [FitKnip](https://www.samenbeter.org/fitknip), will be succeeded in new implementations with GIDS Health Tools Interoperability (HTI), see below.
+Currently, we share open source components to start third party applications (eHealth modules) from portals (SNS/Launch), and to identify users arriving in a module from a portal through such a launch using [IRMA](https://github.com/privacybydesign) (SNS/Identity). We are working on components to connect social networks to healthcare contexts, such as community portals or personal health record applications (SNS/Community). SNS/Launch, currently in use in Stichting Beter met Elkaar projects; [SamenBeter Proeftuinen](https://www.samenbeter.org/proeftuinen) and [FitKnip](https://www.samenbeter.org/fitknip), will be succeeded in new implementations with GIDS Health Tools Interoperability (HTI), see below.
 
 ### SNS/Launch | Beta
 
