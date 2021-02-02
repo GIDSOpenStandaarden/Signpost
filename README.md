@@ -11,7 +11,7 @@ We distinguish between **five states** for open source components:
 5. **Abandoned**: we do not, or no longer maintain and/or support the component. Contact the developer directly if you want to obtain support, or contact us if you want to contribute and re-activate an open source component.  
 
 
-# Overview of repositories
+# Overview of repositories (newest to oldest)
 
 ## GIDS Health Tools Interoperability (HTI)
 HTI is an open standard that support the shared function to start third party applications. It is inspired by the proven international education open standard IMS-LTI and can be (re)used in different initiatives, like Beter met Elkaar, MedMij, and Koppeltaal. It succeeds and replaces SNS/Launch, see below. 
