@@ -1,6 +1,6 @@
 *If you need an introduction for this GitHub ‘GIDS Open Standaarden’ or more background information in Dutch, [click here](https://github.com/GIDSOpenStandaarden/Introduction).*
 
-**Issues with components?** Please report those in the relevant repository. If you want guidance, please follow the good practice [shared by testlio here](https://testlio.com/blog/the-ideal-bug-report/). Alternatively, you can always contact us at info@gidsopenstandaarden.org. 
+**Issues with components?** Please report those in the relevant repository and use "@name"to assign a member. If you want guidance, please follow the good practice [shared by testlio here](https://testlio.com/blog/the-ideal-bug-report/). Alternatively, you can always contact us at info@gidsopenstandaarden.org. 
 
 We distinguish between **five states** for open source components:
 
@@ -13,28 +13,8 @@ We distinguish between **five states** for open source components:
 
 # Overview of repositories
 
-## Social Network Standard (SNS)
-Currently, we share open source components to start third party applications (eHealth modules) from portals (SNS/Launch), and to identify users arriving in a module from a portal through such a launch using [IRMA](https://github.com/privacybydesign) (SNS/Identity). We are working on components to connect social networks to healthcare contexts, such as community portals or personal health record applications (SNS/Community). SNS/Launch, currently in use in Stichting Beter met Elkaar projects; [SamenBeter Proeftuin Wijken](https://www.samenbeter.org/proeftuinen) and [FitKnip Duurzame Financiering](https://www.samenbeter.org/fitknip), will be succeeded in new implementations with GIDS Health Tools Interoperability (HTI), see below.
-
-### SNS/Launch | Beta
-
-- [OpenSNS-Launch-Protocol](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-Protocol) technical specification.
-- [OpenSNS-Launch-Emulator](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-Emulator) test tool for consumer and producer.
-- [OpenSNS-Launch-Java](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-Java) code example.
-- [OpenSNS-Launch-PHP](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-PHP) code example.
-- [OpenSNS-Launch-Python](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-Python) code example.
-
-### SNS/Identity | POC
-
-- [OpenSNS-IRMA-Auth](https://github.com/GIDSOpenStandaarden/OpenSNS-IRMA-Auth) tool to abstract implementation complexity away from other applications.
-- [OpenSNS-IRMA-Docker](https://github.com/GIDSOpenStandaarden/OpenSNS-IRMA-Docker) contains the containerized deployment of an IRMA go server.
-
-### SNS/Community | R&D
-
-- No repositories yet.
- 
 ## GIDS Health Tools Interoperability (HTI)
-HTI is an open standard that support the shared function to start third party applications. It is inspired by the proven international education open standard IMS-LTI and can be (re)used in different initiatives, like SamenBeter, MedMij, and Koppeltaal. It succeeds and replaces SNS/Launch, see above. 
+HTI is an open standard that support the shared function to start third party applications. It is inspired by the proven international education open standard IMS-LTI and can be (re)used in different initiatives, like Beter met Elkaar project SamenBeter Proeftuin Wijken, MedMij, and Koppeltaal. It succeeds and replaces SNS/Launch, see below. 
 
 ### HTI | POC
 - [GIDS-HTI-Protocol](https://github.com/GIDSOpenStandaarden/GIDS-HTI-Protocol) technical specification.
@@ -42,6 +22,23 @@ HTI is an open standard that support the shared function to start third party ap
 - [GIDS-HTI-RI-Module-Python](https://github.com/GIDSOpenStandaarden/GIDS-HTI-RI-Module-Python) code example.
 - [GIDS-HTI-RI-Module-Java](https://github.com/GIDSOpenStandaarden/GIDS-HTI-RI-Module-Java) code example.
 - [GIDS-HTI-RI-Portal-Java](https://github.com/GIDSOpenStandaarden/GIDS-HTI-RI-Portal-Java) code example.
+
+## Social Network Standard (SNS)
+Currently, we share open source components to start third party applications (eHealth modules) from portals (SNS/Launch), and to identify users arriving in a module from a portal through such a launch using [IRMA](https://github.com/privacybydesign) (SNS/Identity). We are working on components to connect social networks to healthcare contexts, such as community portals or personal health record applications (SNS/Community). SNS/Launch, currently in use in Stichting Beter met Elkaar projects; [SamenBeter Proeftuin Wijken](https://www.samenbeter.org/proeftuinen) and [FitKnip Duurzame Financiering](https://www.samenbeter.org/fitknip), will be succeeded in new implementations with GIDS Health Tools Interoperability (HTI), see above.
+
+### SNS/Launch | Beta
+- [OpenSNS-Launch-Protocol](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-Protocol) technical specification.
+- [OpenSNS-Launch-Emulator](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-Emulator) test tool for consumer and producer.
+- [OpenSNS-Launch-Java](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-Java) code example.
+- [OpenSNS-Launch-PHP](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-PHP) code example.
+- [OpenSNS-Launch-Python](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-Python) code example.
+
+### SNS/Identity | POC
+- [OpenSNS-IRMA-Auth](https://github.com/GIDSOpenStandaarden/OpenSNS-IRMA-Auth) tool to abstract implementation complexity away from other applications.
+- [OpenSNS-IRMA-Docker](https://github.com/GIDSOpenStandaarden/OpenSNS-IRMA-Docker) contains the containerized deployment of an IRMA go server.
+
+### SNS/Community | R&D
+- No repositories yet.
  
 ## Legal documents and templates
 We host a few relevant legal components (governance, risk and compliance documentation) and templates that help you implement our licensing policies easily as you make use of, or contribute to our projects:
