@@ -16,22 +16,29 @@ We distinguish between **five states** for open source components:
 ## SamenBeter Social Network Standard (SNS)
 Currently, we share open source components to start third party applications (eHealth modules) from portals (SNS/Launch), and to identify users arriving in a module from a portal through such a launch using [IRMA](https://github.com/privacybydesign) (SNS/Identity). We are working on components to connect social networks to healthcare contexts, such as community portals or personal health record applications (SNS/Community). SNS/Launch, currently in use in [SamenBeter Proeftuinen](https://www.samenbeter.org/proeftuinen) and [Fitknip](https://www.samenbeter.org/fitknip) projects, will be succeeded in new implementations with GIDS Health Tools Interoperability (HTI), see below.
 
-## GIDS Health Tools Interoperability (HTI)
-HTI is an open standard that support the shared function to start third party applications anonymously. It is inspired by the proven international education open standard IMS-LTI and can be (re)used in different initiatives, like SamenBeter, MedMij, and Koppeltaal. It succeeds and replaces SNS/Launch, see above. Review [the proposal for HTI here](https://drive.google.com/open?id=1A89P3aHsSudeE2Iz2c3IVl30l9_USWrKb1SqYneJWKw).
+## GIDS Health Tools Interoperability (HTI) 
+HTI is an open standard that supports the shared function to anonymously start/launch from a portal to a third party application(s). It is inspired by the proven international education open standard IMS-[LTI](https://www.imsglobal.org/activity/learning-tools-interoperability) and can be (re)used in different initiatives, like SamenBeter, MedMij, and Koppeltaal. It succeeds and replaces SNS/Launch, see above.  It has been developed by [Headease](https://www.headease.nl/) within the project [Samenbeter](https://www.samenbeter.org/) from the [foundation Beter Met Elkaar](https://www.betermetelkaar.org/).
+ View [the protocol for HTI here](https://github.com/GIDSOpenStandaarden/GIDS-HTI-Protocol).
 
 ### HTI | Production
+- [GIDS-HTI-Protocol](https://github.com/GIDSOpenStandaarden/GIDS-HTI-Protocol). Intended for developers to implement the protocol.
 - [GIDS-HTI-TestSuite](https://github.com/GIDSOpenStandaarden/GIDS-HTI-TestSuite). intended for developers to support the implementation of the HTI protocol.
 
 ### SNS/Identity: IRMA | POC
-Within GIDS we use IRMA to authenticate and authorize users. IRMA is an open source privacy friendly way of identifying and authorizing, using attributes. It has been developed in the Netherlands by the Privacy by Design foundation. It is currently in use by the City council of Amsterdam and the Dutch government is considering IRMA as a solution for authentication alongside Digid. 
+Within GIDS we use IRMA to authenticate and authorize users, for example when they arrive in a third party application via HTI or when accessing their Solid Pod. IRMA is an open source privacy friendly way of identifying and authorizing, using attributes. It has been developed in the Netherlands by the Privacy by Design foundation. It is currently in use by the City council of Amsterdam and the Dutch government is considering IRMA as a solution for authentication alongside Digid. 
 
-- [OpenSNS-IRMA-Auth](https://github.com/GIDSOpenStandaarden/OpenSNS-IRMA-Auth) tool to abstract implementation complexity away from other applications.
+- [OpenSNS-IRMA-Auth](https://github.com/GIDSOpenStandaarden/OpenSNS-IRMA-Auth) This service has been set up to easily experiment with IRMA for parties within SamenBeter or with an interest in using IRMA. It abstracts implementation complexity away from other applications.
 - [OpenSNS-IRMA-Docker](https://github.com/GIDSOpenStandaarden/OpenSNS-IRMA-Docker) contains the containerized deployment of an IRMA go server.
 
 ### SNS/Community: Solid | POC
-Being able to store and share data is an important component within GIDS. Solid allows people to store their data securely in decentralized data stores called Pods. This is a secure personal web server that can store multiple types of data. The owner of the pod can control who and what can access that data. The data in the pod is accessible via the Solid Protocol. Solid is led by Sir Tim Berners Lee and is available as Open Source.
+Being able to store and share data is an important component within GIDS. Solid allows people to store their data securely in decentralized data stores called Pods. This is a secure personal web server that can store multiple types of data. The owner of the pod can control who and what can access that data. The data in the pod is accessible via the [Solid Protocol](https://solid.github.io/specification/). Solid is led by Sir Tim Berners Lee and is available as Open Source.
 This service has been setup to prove that a portal and module application can store data using FHIR in a personal data store.
-- No repositories yet, will be uploaded Q1 2021.
+- No Solid repositories yet, will be uploaded Q1 2021. The repo that will be made available has been set up to prove that a portal and module application can store data using FHIR in a personal data store.
+- [GIDS-SNS-RI-Portal-Java](https://github.com/GIDSOpenStandaarden/GIDS-SNS-RI-Portal-Java) - Reference implementation of a portal to:
+  - List e-health tasks and use HTI to anonymously launch these tasks. 
+  - Connect to a Solid POD
+  - Give read / write access to Solid POD
+
  
 ### SNS/Launch | Beta - Abandoned
 We suggest current users to implement HTI, which succeeds the Launch-protocol.
