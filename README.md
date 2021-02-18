@@ -27,7 +27,7 @@ HTI is an open standard that support the shared function 'to start third party a
 Currently, we develop SNS in 3 phases of open source components to start third party applications (eHealth modules) from portals (1. SNS/Launch), and to identify users arriving in a module from a portal through such a launch using [IRMA](https://github.com/privacybydesign) (2. SNS/Identity). We are working on components to connect social networks to healthcare contexts, such as community portals or personal health record applications (3. SNS/Community). SNS/Launch, currently in use in Stichting Beter met Elkaar projects; [SamenBeter Proeftuin Wijken](https://www.samenbeter.org/proeftuinen) and [FitKnip Duurzame Financiering](https://www.samenbeter.org/fitknip), will be succeeded in new implementations with GIDS Health Tools Interoperability (HTI), see above.
 
 ### SNS/Launch | Production
-We strongly advise current users to implement HTI, which succeeds the Launch-protocol.
+We strongly advise current users to implement HTI, which succeeds the SNS/Launch protocol.
 - [OpenSNS-Launch-Protocol](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-Protocol) technical specification.
 - [OpenSNS-Launch-Emulator](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-Emulator) test tool for consumer and producer.
 - [OpenSNS-Launch-Java](https://github.com/GIDSOpenStandaarden/OpenSNS-Launch-Java) code example.
