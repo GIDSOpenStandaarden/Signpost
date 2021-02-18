@@ -48,7 +48,7 @@ Frameworks that help you implement policies more easily for governance, risk and
 
 - [GIDSOpenStandaarden-SecurityFramework](https://github.com/GIDSOpenStandaarden/GIDSOpenStandaarden-SecurityFramework). [Beta] instructions for peer review or external audit.
 - [GIDSOpenStandaarden-LegalDocuments](https://github.com/GIDSOpenStandaarden/GIDSOpenStandaarden-LegalDocuments). [Beta] legal commons, licences, processing agreement.
-- [GIDSOpenStandaarden-Templates](https://github.com/GIDSOpenStandaarden/GIDSOpenStandaarden-Templates). [Beta] template naming repositories. 
+- [GIDSOpenStandaarden-Templates](https://github.com/GIDSOpenStandaarden/GIDSOpenStandaarden-Templates). [Production] template naming repositories. 
  
 ## MedMij implementation building components
 We share open source components to help implement the functions required to [participate in MedMij](https://www.medmij.nl/open-source-bouwstenen/), a set of agreements to enable Dutch personal health record (PGO) applications (OpenPGO). Please take note that currently these components are not updated to the most recent version of MedMij.
