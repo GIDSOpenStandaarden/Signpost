@@ -40,7 +40,7 @@ To authenticate and authorize users we use IRMA, for example when they arrive in
 - [OpenSNS-IRMA-Docker](https://github.com/GIDSOpenStandaarden/OpenSNS-IRMA-Docker) contains the containerized deployment of an IRMA go server.
 
 ### SNS/Community | R&D
-This service has been setup to prove that a portal and module application can store data using FHIR in a personal data store. Therefor we use Solid, that allows people to store their data securely in decentralized data stores called Pods.
+This service has been setup to prove that a portal and module application can store data using FHIR in a personal data store. Therefor we use Solid, that allows people to store their data securely in decentralized data stores called Pods. What makes it possible for people to (un)share their data with professionals and their social network.
 - No repositories yet.
  
 ## Security, legal documents and templates
