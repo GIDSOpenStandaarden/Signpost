@@ -5,7 +5,7 @@
 We distinguish between **five states** for open source components:
 
 1. **R&D**: we are still researching, describing, and conceptualizing.
-2. **POC**: Proof of Concept, a first implementation is being realized and tried out.
+2. **POC**: Proof of Concept, a first implementation is being realized and tried out. Cannot be used in beta or production settings.
 3. **Beta**: the component is used in a few places.
 4. **Production**: the component is used in many places.
 5. **Abandoned**: we do not, or no longer maintain and/or support the component. Contact the developer directly if you want to obtain support, or contact us if you want to contribute and re-activate an open source component.  
