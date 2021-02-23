@@ -16,7 +16,7 @@ We distinguish between **five states** for open source components:
 ## GIDS Health Tools Interoperability (HTI)
 HTI is an open standard that support the shared function 'to start third party applications' anonymously. It is inspired by the proven international education open standard [IMS-LTI](https://www.imsglobal.org/activity/learning-tools-interoperability) and can be (re)used in different initiatives, like [Beter met Elkaar](https://www.betermetelkaar.org), [MedMij](https://www.medmij.nl), and [Koppeltaal](https://www.koppeltaal.nl). It succeeds and replaces SNS/Launch, see below. 
 
-### HTI | Beta
+### HTI | Production
 - [GIDS-HTI-Protocol](https://github.com/GIDSOpenStandaarden/GIDS-HTI-Protocol) technical specification.
 - [GIDS-HTI-TestSuite](https://github.com/GIDSOpenStandaarden/GIDS-HTI-TestSuite) intended for developers to support the implementation of the HTI protocol.
 - [GIDS-HTI-RI-Module-Python](https://github.com/GIDSOpenStandaarden/GIDS-HTI-RI-Module-Python) code example.
