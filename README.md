@@ -42,7 +42,7 @@ To authenticate and authorize we use IRMA, for example when users arrive in a th
 ### SNS/Community | R&D
 To prove that a portal and module application can store data using FHIR in a personal data store. Reference implementation of a portal has been made. To list e-health tasks and use HTI to anonymously launch these tasks, to connect to a Solid POD and give read / write access.
 - [OpenSNS-Community-RI-Portal-Java](https://github.com/GIDSOpenStandaarden/GIDS-SNS-RI-Portal-Java) code example.
-- [OpenSNS-SolidClient-Java](https://github.com/GIDSOpenStandaarden/GIDS-SNS-Solid-Client-Java) tool to provide applications acces to Solid Pod. 
+- [OpenSNS-SolidClient-Java](https://github.com/GIDSOpenStandaarden/GIDS-SNS-Solid-Client-Java) tool to provide applications access to Solid Pod. 
  
 ## Security, legal documents and templates
 Frameworks that help you implement policies more easily for governance, risk and compliance. As you make use of, or contribute to our GIDS Open Standaarden open source components.
