@@ -44,10 +44,11 @@ To prove that a portal and module application can store data using FHIR in a per
 - [OpenSNS-Community-RI-Portal-Java](https://github.com/GIDSOpenStandaarden/GIDS-SNS-RI-Portal-Java) code example.
 - [OpenSNS-SolidClient-Java](https://github.com/GIDSOpenStandaarden/GIDS-SNS-Solid-Client-Java) tool to provide applications access to Solid Pod. 
  
-## Security, legal documents and templates
+## Security, privacy, legal documents and templates
 Frameworks that help you implement policies more easily for governance, risk and compliance. As you make use of, or contribute to our GIDS Open Standaarden open source components.
 
 - [GIDSOpenStandaarden-SecurityFramework](https://github.com/GIDSOpenStandaarden/GIDSOpenStandaarden-SecurityFramework). [Beta] instructions for peer review or external audit.
+- [GIDSOpenStandaarden-PrivacyFramework](https://github.com/GIDSOpenStandaarden/GIDSOpenStandaarden-PrivacyFramework). [Beta] principles for privacy by design.
 - [GIDSOpenStandaarden-LegalDocuments](https://github.com/GIDSOpenStandaarden/GIDSOpenStandaarden-LegalDocuments). [Beta] legal commons, licences, processing agreement.
 - [GIDSOpenStandaarden-Templates](https://github.com/GIDSOpenStandaarden/GIDSOpenStandaarden-Templates). [Production] template naming repositories. 
  
