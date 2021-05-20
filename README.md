@@ -52,10 +52,12 @@ Frameworks that help you implement policies more easily for governance, risk and
 - [GIDSOpenStandaarden-LegalDocuments](https://github.com/GIDSOpenStandaarden/GIDSOpenStandaarden-LegalDocuments). [Beta] legal commons, licences, processing agreement.
 - [GIDSOpenStandaarden-Templates](https://github.com/GIDSOpenStandaarden/GIDSOpenStandaarden-Templates). [Production] template naming repositories. 
  
-## MedMij implementation building components
-We share open source components to help implement the functions required to [participate in MedMij](https://www.medmij.nl/open-source-bouwstenen/), a set of agreements to enable Dutch personal health record (PGO) applications (OpenPGO). Please take note that currently these components are not updated to the most recent version of MedMij.
+## MedMij implementation building components (archived)
+We share open source components to help implement the functions required to [participate in MedMij](https://www.medmij.nl/open-source-bouwstenen/), a set of agreements to enable Dutch personal health record (PGO) applications (OpenPGO). Please take note that currently these components are not updated to the most recent version of MedMij. 
 
-If you want to use the components, please check them for compliance first, and if needed, update them to the latest MedMij version. Contact the developer directly if you want to obtain support, or contact us if you want to contribute. We are working to organize financial support to further develop and maintain these components.
+The decision has been made to archive the repositories. The reason is that the building components are not being used and have deferred maintenance including security vulnerabilities. If you want to use the components, please check them for compliance first, and if needed, update them to the latest MedMij version. 
+
+Contact the developer directly if you want to obtain support, or contact us if you want to contribute. We are working to organize financial support to further develop and maintain these components.
 
 ### MedMij Implementation Building Blocks | Abandoned
 - [OpenPGO-Medmij-ImplementatieBouwstenen-Opdracht](https://github.com/GIDSOpenStandaarden/OpenPGO-Medmij-ImplementatieBouwstenen-Opdracht). Assignment for the participants in the challenge to make the MedMij implementation building blocks
